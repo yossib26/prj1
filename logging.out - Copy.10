@@ -1,0 +1,16 @@
+2019-04-12 21:19:38,837 - MyLogger - DEBUG - LOG i = 18
+2019-04-12 21:19:38,837 - MyLogger - DEBUG - LOG i = 19
+2019-04-12 21:22:34,834 - MyLogger - DEBUG - Great JOb !!!!!!!!!!!!!!!!!
+2019-04-12 21:22:34,834 - MyLogger - DEBUG - This is a debug message QQ
+2019-04-12 21:22:34,850 - MyLogger - INFO - This is an info message
+2019-04-12 21:22:34,850 - MyLogger - WARNING - This is a warning message
+2019-04-12 21:22:34,850 - MyLogger - ERROR - This is an error message
+2019-04-12 21:22:34,850 - MyLogger - CRITICAL - This is a critical error message
+2019-04-12 21:22:34,850 - MyLogger - DEBUG - LOG i = 0
+2019-04-12 21:22:34,850 - MyLogger - DEBUG - LOG i = 1
+2019-04-12 21:22:34,850 - MyLogger - DEBUG - LOG i = 2
+2019-04-12 21:22:34,850 - MyLogger - DEBUG - LOG i = 3
+2019-04-12 21:22:34,850 - MyLogger - DEBUG - LOG i = 4
+2019-04-12 21:22:34,850 - MyLogger - DEBUG - LOG i = 5
+2019-04-12 21:22:34,850 - MyLogger - DEBUG - LOG i = 6
+2019-04-12 21:22:34,850 - MyLogger - DEBUG - LOG i = 7

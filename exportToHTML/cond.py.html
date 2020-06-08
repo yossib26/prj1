@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>cond.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #000000;}
+.s1 { color: #000080; font-weight: bold;}
+.s2 { color: #808080; font-style: italic;}
+.s3 { color: #0000ff;}
+.s4 { color: #008080; font-weight: bold;}
+</style>
+</head>
+<body bgcolor="#ffffff">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#c0c0c0" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+cond.py</font>
+</center></td></tr></table>
+<pre>
+
+<span class="s1">def </span>max_str(num1, num2, num3):
+    <span class="s1">if </span>num1&gt;=num2 <span class="s1">and </span>num1&gt;=num3:
+        <span class="s1">return </span>num1
+    <span class="s1">elif </span>num2&gt;=num1 <span class="s1">and </span>num2&gt;=num3:
+        <span class="s1">return </span>num2
+    <span class="s1">else</span>:
+        <span class="s1">return </span>num3
+
+<span class="s2"># call function</span>
+print(max_str(<span class="s3">4</span>, <span class="s3">15 </span>, <span class="s3">9</span>))
+
+<span class="s1">def </span>max_num(num1, num2, num3):
+    <span class="s1">if </span>num1&gt;=num2 <span class="s1">and </span>num1&gt;=num3:
+        <span class="s1">return </span>num1
+    <span class="s1">elif </span>num2&gt;=num1 <span class="s1">and </span>num2&gt;=num3:
+        <span class="s1">return </span>num2
+    <span class="s1">else</span>:
+        <span class="s1">return </span>num3
+
+<span class="s2"># call function</span>
+print(max_num(<span class="s3">4</span>, <span class="s3">15 </span>, <span class="s3">9</span>))
+
+
+is_male = <span class="s1">True</span>
+is_tall = <span class="s1">False</span>
+
+if is_male <span class="s1">and </span>is_tall:
+    print(<span class="s4">&quot;male&quot;</span>)
+    print(<span class="s4">&quot;222&quot;</span>)
+<span class="s1">elif </span>is_male <span class="s1">and not </span>is_tall:
+    print(<span class="s4">&quot;Else If&quot;</span>)
+<span class="s1">else</span>:
+    print(<span class="s4">&quot;DDDDD&quot;</span>)
+</pre>
+</body>
+</html>

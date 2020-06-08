@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>loops.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #000000;}
+.s1 { color: #0000ff;}
+.s2 { color: #000080; font-weight: bold;}
+.s3 { color: #808080; font-style: italic;}
+.s4 { color: #008080; font-weight: bold;}
+</style>
+</head>
+<body bgcolor="#ffffff">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#c0c0c0" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+loops.py</font>
+</center></td></tr></table>
+<pre>i = <span class="s1">1</span>
+<span class="s2">while </span>i &lt;= <span class="s1">10</span>:
+ <span class="s3">#   print(i)</span>
+    i +=<span class="s1">1</span>
+
+<span class="s3">#print(&quot;end loop&quot;)</span>
+
+secret = <span class="s4">&quot;giraffe&quot;</span>
+guess = <span class="s4">&quot;&quot;</span>
+res = <span class="s2">False</span>
+c = <span class="s1">0</span>
+t = <span class="s1">3</span>
+
+<span class="s2">while </span>guess != secret <span class="s2">and not</span>(res):
+    <span class="s2">if </span>c &lt; t:
+        guess = input(<span class="s4">&quot;Enter Guess: &quot;</span>)
+        c += <span class="s1">1</span>
+    <span class="s2">else</span>:
+        res = <span class="s2">True</span>
+
+if res:
+    print(<span class="s4">&quot;Our Of Guesses, You Loose&quot;</span>)
+<span class="s2">else</span>:
+    print(<span class="s4">&quot;You Win!!!!!1&quot;</span>)
+
+
+
+</pre>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<html>
+<head>
+<title>list.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #000000;}
+.s1 { color: #0000ff;}
+.s2 { color: #008080; font-weight: bold;}
+.s3 { color: #000080; font-weight: bold;}
+</style>
+</head>
+<body bgcolor="#ffffff">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#c0c0c0" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+list.py</font>
+</center></td></tr></table>
+<pre>lucky = [<span class="s1">4</span>, <span class="s1">52</span>, <span class="s1">23</span>, <span class="s1">12</span>]
+num = [<span class="s1">4</span>, <span class="s1">5</span>, <span class="s1">23</span>, <span class="s1">12</span>]
+friends = [<span class="s2">&quot;gggg&quot;</span>, <span class="s2">&quot;bbbb&quot;</span>, <span class="s2">&quot;cccccc&quot;</span>, <span class="s2">&quot;bbbb&quot;</span>, <span class="s2">&quot;dddddd&quot;</span>]
+
+
+friends2 = friends.copy()
+print(friends2)
+
+lucky.reverse()
+print(lucky)
+
+friends.sort()
+lucky.sort()
+
+
+print(friends.count(<span class="s2">&quot;bbbb&quot;</span>))
+
+print(friends.index(<span class="s2">&quot;cccccc&quot;</span>))
+
+
+print(friends)
+
+friends.remove(<span class="s2">&quot;bbbb&quot;</span>)
+
+friends.insert(<span class="s1">1</span>, <span class="s2">&quot;KELLY&quot;</span>)
+
+num.clear()
+print(num)
+
+friends.append(<span class="s2">&quot;Creed&quot;</span>)
+print(friends)
+
+friends.extend(lucky)
+
+
+
+print(lucky)
+
+print(friends[<span class="s1">2</span>])
+print(friends)
+
+friends[<span class="s1">0</span>] = <span class="s2">&quot;YYYY&quot;</span>
+
+print(friends[<span class="s1">1</span>:])
+print(friends[<span class="s1">2</span>:])
+
+<span class="s3">for </span>x <span class="s3">in </span>friends:
+    print(x)
+</pre>
+</body>
+</html>
